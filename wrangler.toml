@@ -1,6 +1,6 @@
 name = "boilerplate"
 main = "src/index.ts"
-compatibility_date = "2025-01-20"
+compatibility_date = "2024-11-11"
 [[d1_databases]]
 binding = "DB"
 database_name = "boilerplate-db"

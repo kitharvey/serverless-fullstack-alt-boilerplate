@@ -46,5 +46,8 @@
 		"@libsql/client": "^0.14.0",
 		"better-auth": "^1.1.14",
 		"drizzle-orm": "^0.38.4"
+	},
+	"engines": {
+		"node": ">=18.18.0"
 	}
 }
