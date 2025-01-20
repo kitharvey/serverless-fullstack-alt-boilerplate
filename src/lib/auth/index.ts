@@ -13,9 +13,12 @@ export const auth = betterAuth({
 			verification
 		}
 	}),
-
 	emailAndPassword: {
-		enabled: true
+		enabled: true,
+		requireEmailVerification: true
+	},
+	emailVerification: {
+		autoSignInAfterVerification: true
 	},
 	secret: process.env.BETTER_AUTH_SECRET
 });
