@@ -1,0 +1,7 @@
+name = "boilerplate"
+main = "src/index.ts"
+compatibility_date = "2025-01-20"
+[[d1_databases]]
+binding = "DB"
+database_name = "boilerplate-db"
+database_id = "d5bfbf68-ed72-44f8-ae07-c86d86a57cc6"
