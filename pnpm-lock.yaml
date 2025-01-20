@@ -28,10 +28,10 @@ importers:
         specifier: ^5.0.1
         version: 5.0.1(@sveltejs/kit@2.16.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.19.0)(vite@5.4.11(@types/node@22.10.7)))(svelte@5.19.0)(vite@5.4.11(@types/node@22.10.7)))(wrangler@3.103.2(@cloudflare/workers-types@4.20250109.0))
       '@sveltejs/kit':
-        specifier: ^2.0.0
+        specifier: ^2.16.0
         version: 2.16.0(@sveltejs/vite-plugin-svelte@4.0.4(svelte@5.19.0)(vite@5.4.11(@types/node@22.10.7)))(svelte@5.19.0)(vite@5.4.11(@types/node@22.10.7))
       '@sveltejs/vite-plugin-svelte':
-        specifier: ^4.0.0
+        specifier: ^4.0.4
         version: 4.0.4(svelte@5.19.0)(vite@5.4.11(@types/node@22.10.7))
       '@tailwindcss/typography':
         specifier: ^0.5.16
@@ -64,16 +64,16 @@ importers:
         specifier: ^0.6.10
         version: 0.6.10(prettier-plugin-svelte@3.3.3(prettier@3.4.2)(svelte@5.19.0))(prettier@3.4.2)
       svelte:
-        specifier: ^5.0.0
+        specifier: ^5.19.0
         version: 5.19.0
       svelte-check:
-        specifier: ^4.0.0
+        specifier: ^4.1.4
         version: 4.1.4(svelte@5.19.0)(typescript@5.7.3)
       tailwindcss:
         specifier: ^3.4.17
         version: 3.4.17
       typescript:
-        specifier: ^5.0.0
+        specifier: ^5.7.3
         version: 5.7.3
       typescript-eslint:
         specifier: ^8.20.0
@@ -1880,6 +1880,7 @@ packages:
 
   libsql@0.4.7:
     resolution: {integrity: sha512-T9eIRCs6b0J1SHKYIvD8+KCJMcWZ900iZyxdnSCdqxN12Z1ijzT+jY5nrk72Jw4B0HGzms2NgpryArlJqvc3Lw==}
+    cpu: [x64, arm64, wasm32]
     os: [darwin, linux, win32]
 
   lilconfig@2.1.0:
