@@ -1,5 +1,4 @@
 name = "boilerplate"
-main = "src/index.ts"
 compatibility_date = "2024-11-11"
 [[d1_databases]]
 binding = "DB"
