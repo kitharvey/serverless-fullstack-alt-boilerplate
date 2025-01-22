@@ -1,5 +1,7 @@
 name = "boilerplate"
 compatibility_date = "2024-11-11"
+account_id = "95e4aff3a9a4f67ddf05efde2a8dabd9"
+main = "./.svelte-kit/cloudflare/worker.js"
 [[d1_databases]]
 binding = "DB"
 database_name = "boilerplate"
