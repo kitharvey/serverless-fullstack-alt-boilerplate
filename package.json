@@ -16,8 +16,9 @@
 		"db:studio": "drizzle-kit studio",
 		"w": "wrangler pages dev ./.svelte-kit/cloudflare  --env staging  ",
 		"d1:gen": "drizzle-kit generate --config=drizzle.config.ts",
-		"d1:mig:local": "wrangler d1 migrations apply database --local",
-		"d1:mig:prod": "wrangler d1 migrations apply database "
+		"d1:mig:local": "wrangler d1 migrations apply boilerplate --local",
+		"d1:mig:prod": "wrangler d1 migrations apply boilerplate ",
+		"cf-typegen": "wrangler types && move worker-configuration.d.ts src/"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",

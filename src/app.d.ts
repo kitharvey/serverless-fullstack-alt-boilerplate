@@ -7,7 +7,7 @@ declare global {
 	namespace App {
 		interface Platform {
 			env: {
-				DB: DrizzleD1Database;
+				DB: D1Database;
 			};
 		}
 		interface Locals {
