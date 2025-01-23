@@ -4,5 +4,5 @@ account_id = "95e4aff3a9a4f67ddf05efde2a8dabd9"
 main = "./.svelte-kit/cloudflare/worker.js"
 [[d1_databases]]
 binding = "DB"
-database_name = "boilerplate"
-database_id = "93bf1a9f-4476-4ca4-a2bc-bf21f1c5df93"
+database_name = "database"
+database_id = "ceb02d84-288d-47be-b6a3-37835492a7c2"
