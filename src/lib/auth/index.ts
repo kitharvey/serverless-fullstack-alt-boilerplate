@@ -2,7 +2,7 @@ import { betterAuth } from 'better-auth';
 import { drizzleAdapter } from 'better-auth/adapters/drizzle';
 import { db } from '../server/db';
 import { BETTER_AUTH_SECRET, GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET } from '$env/static/private';
-import { account, session, user, verification } from '$lib/server/db/schema';
+import { account, session, user, verification } from '../server/db/schema';
 
 export const auth = betterAuth({
 	database: drizzleAdapter(db, {

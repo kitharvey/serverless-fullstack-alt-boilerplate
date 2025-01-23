@@ -1,3 +1,3 @@
-import { authSchema } from '$lib/auth/schema';
+import { authSchema } from '../../auth/schema';
 
 export const { user, session, account, verification } = authSchema;
